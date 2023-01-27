@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    background-size: cover;
+}
+body{
+    background-image: url(https://i.blogs.es/80042f/bingwallpaper-2020-04-18/1366_2000.jpg) ;
+}
+#Presentacion{
+    color: white;
+        display: block;
+        font-family: 'Lobster', cursive;
+        white-space: nowrap;
+        border-right: 4px solid ;
+        width: 35ch;
+        animation: typing 3s steps(35), blink .5s infinite step-end alternate ;
+        overflow: hidden;
+        font-size: 400%
+        
+    }
+    @keyframes typing {
+        from { width: 0  } ;
+    }
+.Center{
+    justify-content: center;
+    margin: 3cm;
+    
+}
+#Icono{
+   
+    color: rgb(7, 4, 14);
+    display: grid;
+    place-content: center;
+   
+}

@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    background-size: cover;
+}
+#Fondo{
+    background-image: url(https://cdn.pixabay.com/photo/2020/02/25/17/05/landscape-4879473_960_720.jpg) ;
+}
+#Nombre{
+    display: block;
+    font-family: 'Kaushan Script', cursive;
+    white-space: nowrap;
+    border-right: 4px solid ;
+    width: 10ch;
+    animation: typing 2s steps(10), blink .5s infinite step-end alternate ;
+    overflow: hidden;
+    font-size: 400%;
+   
+    
+  
+}
+@keyframes typing {
+    from { width: 0  } ;
+}
+
+.Tipografia{
+    font-family: 'Courgette', cursive;
+}
+#DatosPersonales{
+    color: black;
+}
+.Center{
+    display: flex;
+    justify-content: center;
+    margin: 1cm;
+}
+.Datos{
+    display: inline;
+    text-align: center;
+    margin: 3cm;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+#FondoDatos{
+    background-color: rgb(126, 168, 154);
+}
+#TamLink{
+font-size: xx-large;
+}
+.Parrafo{
+    display: flex;
+    text-align: center;
+    margin: 10%;
+    font-size: xx-large;
+}
+.FondoAcercademi{
+    background-color: rgb(181, 129, 230);
+}
+.FondoAspiraciones{
+    background-color: #deee06;
+}
+.FondoAspiraciones{
+    background-color: rgb(89, 120, 223);
+}
